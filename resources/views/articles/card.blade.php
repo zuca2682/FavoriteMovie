@@ -61,6 +61,9 @@
     </h3>
     <div class="card-text">
       {{ $article->body }}
+      <!-- 投稿した画像を表示 -->
+      <img src="https://www.ghibli.jp/gallery/kazetachinu043.jpg" class="img-fluid shadow-2-strong" alt=""/>
+      <!-- 投稿した画像を表示 -->
     </div>
   </div>
 </div>
