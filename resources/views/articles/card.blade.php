@@ -60,10 +60,16 @@
       </a>
     </h3>
     <div class="card-text">
-      {{ $article->body }}
+      {!! nl2br(e( $article->body )) !!}
       <!-- 投稿した画像を表示 -->
       <img src="https://www.ghibli.jp/gallery/kazetachinu043.jpg" class="img-fluid shadow-2-strong" alt=""/>
       <!-- 投稿した画像を表示 -->
+    </div>
+  </div>
+  <div class="card-body pt-0 pb-2 pl-3">
+    <div class="card-text">
+      <article-like>
+      </article-like>
     </div>
   </div>
 </div>
